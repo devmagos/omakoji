@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form action="POST" data-netlify="true">
+        <div>
+            <div>
+                <input type="text" name="name" placeholder="Enter your name" />
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Enter your email" />
+            </div>
+            <div>
+                <textarea name="message" id="message" rows="7" placeholder="Enter your message"></textarea>
+            </div>
+            <div>
+                <input type="file" name="myfile" id="myfile" placeholder="Upload file" rows="7" />
+            </div>
+            <div>
+                <div data-netlify-recapcha="true"></div>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <input type="submit" value="Send Message">
+            </li>
+        </ul>
+    </form>
+
+    <a href="./index.html">Go Back</a>
+</body>
+</html>
