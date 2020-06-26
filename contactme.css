@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-gap: 30px 40px;
+    grid-template-areas:
+    'header header header header header header'
+}
+.grid-item1{
+    grid-area: header;
+}
+.grid-item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid-item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-end: 4;
+}
+.fields{
+    padding: 15px;
+}
+#name, #email, #message, #myfile{
+    border-radius: 5px;
+    text-align: center;
+}
+#name, #email, #message, #submit{
+    width: 250px;
+}
+#name, #email{
+    height: 30px;
+}
+#submit{
+    border-radius: 15px;
+    margin-left: 18px;
+    font-size: 18px;
+    height: 50px;
+    color: rgb(54, 53, 53);
+}
+ul > li{
+    list-style-type: none;
+}
