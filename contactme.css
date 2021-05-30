@@ -3,46 +3,51 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.grid-container{
-    display: grid;
-    grid-gap: 30px 40px;
-    grid-template-areas:
-    'header header header header header header'
+.flex-container{
+    display: flex;
 }
-.grid-item1{
-    grid-area: header;
+
+.form {
+    opacity: 0.7;
+    padding: 3em;
+    margin-top: 5px;
+    margin-left: 25px;
+    background: #fff;
+    border-radius: 8px;
+    border: #ccc 0.5px solid;
 }
-.grid-item2{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}
-.grid-item3{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-end: 4;
-}
-.fields{
-    padding: 15px;
-}
-#name, #email, #message, #myfile{
+
+.fields input, textarea{
     border-radius: 5px;
-    text-align: center;
-}
-#name, #email, #message, #submit{
-    width: 250px;
-}
-#name, #email{
-    height: 30px;
-}
-#submit{
-    border-radius: 15px;
-    margin-left: 18px;
-    font-size: 18px;
-    height: 50px;
-    color: rgb(54, 53, 53);
-}
-ul > li{
+    padding: 10px;
+    margin: 10px auto;
     list-style-type: none;
+    border: 0.5px solid;
+    width: 300px;
+}
+
+.fields textarea{
+    height: 250px;
+}
+
+.fields #submit {
+    background: rgb(150, 224, 248);
+}
+
+iframe {
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.grid-item ul a{
+    text-decoration: none;
+    padding: 25px;
+    margin: 25px;
 }

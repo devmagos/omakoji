@@ -7,33 +7,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet"><!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body onload="clock();">
+<body>
+    <div id="particles-js">
+
     <div class="grid-container">
     <div class="grid-item1">
-        <div id="logo">My Personal Portfolio</div>
-        <div id="clock">12:00:00</div>
-        <div style="clear: both"></div>
+        <div id="logo"><b>Omakoji Danlami Enejoh</b></div>
+        <!-- <div style="clear: both"></div> -->
     </div>
     <div class="grid-item2">
         <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#" target="_blank"><li>About</li></a>
-            <a href="./projects.html" target="_blank"><li>Projects</li></a>
-            <a href="./contactme.html" target="_blank"><li>Contact</li></a>
-            <li>
-            <a href="https://web.facebook.com/omakoji.enejoh.3" target="_blank"><i class="fa fa-facebook-square"></i></a>
-            <a href="https://twitter.com/OmacodeG/with_replies" target="_blank"><i class="fa fa-twitter-square"></i></a>
-            <a href="https://github.com/ernestmoi?tab=repositories" target="_blank"><i class="fa fa fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/in/omakoji-enejoh-42461a167/" target="_blank"><i class="fa fa-linkedin-square" target="_blank"></i></a>
-            </li>
+            <a href="./projects.html"><li>Projects</li></a>
+            <a href="./contactme.html"><li>Contact</li></a>
+            <a href="./cv.html"><li>CV</li></a>
         </ul>
     </div>
     <div class="grid-item3">
         <img src="images/omacodes2.jpeg" alt="omakoji enejoh">
     </div>
+    <div class="grid-item4">
+        <ul>
+                <a href="https://web.facebook.com/omakoji.enejoh.3" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://twitter.com/OmacodeG/with_replies" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                <a href="https://github.com/ernestmoi?tab=repositories" target="_blank"><i class="fa fa fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/omakoji-enejoh-42461a167/" target="_blank"><i class="fa fa-linkedin-square" target="_blank"></i></a>
+        </ul>
+    </div>
     <!-- <div style="clear: both"></div> -->
-    <div class="grid-item4">Site made by Omakoji Enejoh &copy; 2020</div>
+    <div class="grid-item5">Made with  <i class="fa fa-heart heart"></i> &copy; 2020</div>
 </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.json loaded');
+    });
+</script>
 <script src="./app.js"></script>
 </body>
 </html>

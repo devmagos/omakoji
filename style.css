@@ -2,9 +2,98 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #FF6F00;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: #333;
 }
-html{
+
+
+/* body {
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: #333;
+} */
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    opacity: 0.9;
+    padding: 2em;
+    border: #ccc 2px solid;
+    position: absolute;
+    border-radius: 25px;
+    top: 100px;
+    left: 50px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#logo {
+    margin: 5px auto;
+    font: 2em sans-serif;
+}
+.grid-item1 {
+    display: flex;
+    padding: 5px;
+}
+.grid-item1 div {
+    margin-right: 5px;
+}
+
+.grid-item2 {
+    display: flex;
+}
+
+.grid-item2 ul{
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.grid-item2 ul a{
+    display: flex;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.grid-item3 {
+    display: flex;
+    margin-bottom: 10px;
+}
+.grid-item3 img {
+    margin: 10px auto;
+}
+
+.grid-item4 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.grid-item4 ul a{
+    padding: 25px;
+    font-size: 25px;
+}
+
+.grid-item5 {
+    display: flex;
+    padding: 15px;
+}
+.grid-item5 .heart {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 15px; 
+    color:hotpink;
+}
+
+#particles-js {
+    background-color: firebrick;
+    height: 100%;
+}
+
+/* html{
     font-size: 20px;
     width: 100vw;
     height: 100vh;
@@ -127,4 +216,4 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 25px;
-}
+} */

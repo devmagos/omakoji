@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+body { 
+    padding: 35px;
+    background-color: powderblue;
+}
+
+.flex_container {
+    width: 75%;
+    height: 75%;
+    padding: 25px;
+    border-radius: 35px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#align_p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+ul a{
+    padding-right: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
