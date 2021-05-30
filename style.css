@@ -95,11 +95,12 @@ img {
       height: 80%;
     }
     .grid-item2 ul a{
-        display: flex;
+        margin: 5px auto;
         padding: 15px;
         text-decoration: none;
     }
     .grid-item4 ul a{
+        margin: 5px auto;
         padding: 15px;
         font-size: 25px;
     }
