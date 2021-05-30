@@ -94,4 +94,9 @@ img {
       width: 80%;
       height: 80%;
     }
+    .grid-item2 ul a{
+        display: flex;
+        padding: 5px;
+        text-decoration: none;
+    }
   }
