@@ -10,20 +10,45 @@ html{
     width: 100vw;
     height: 100vh;
     margin-bottom: 50px;
-    padding-top: 50px;
 }
 body{
     font-family: 'Lato', sans-serif;
-    margin: 50px;
+    margin: 10px;
     padding: 50px;
 }
+
+.grid-item  {
+    margin-bottom: 10px;
+}
+
+.grid-item .nav a{
+    padding: 10px;
+    color: firebrick;
+    text-decoration: none;
+}
 h1{
-    margin-bottom: 50px;
-    color: powderblue;
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(43, 53, 53);
+    text-align: center;
+    margin-bottom: 10px;
 }
 hr{
     margin-bottom: 50px;
 }
 p{
     margin-bottom: 50px;
+}
+
+.projects {
+    width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project__images {
+    object-fit: contain;
+    width: 300px;
+    border-radius: 8px;
+    margin-right: 40px;
 }
