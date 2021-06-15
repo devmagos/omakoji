@@ -52,3 +52,31 @@ p{
     border-radius: 8px;
     margin-right: 40px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .project__images {
+        object-fit: contain;
+        border-radius: 8px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .project__images {
+        object-fit: contain;
+        border-radius: 8px;
+    }
+}
