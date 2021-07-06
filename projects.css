@@ -49,8 +49,20 @@ p{
 .project__images {
     object-fit: contain;
     width: 300px;
-    border-radius: 8px;
-    margin-right: 40px;
+    border-radius: 15px;
+}
+.projects__box {
+    -webkit-box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+    -moz-box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+     box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+     margin-right: 20px;
+}
+
+.net:hover, .thot:hover, .meet:hover, .filt:hover, .clk:hover, .gtl:hover, .weath:hover, .insta:hover {
+    width: 350px;
+    border-radius: 20px;
+    object-fit: contain;
+    transition: ease-in-out;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -64,6 +76,13 @@ p{
     .project__images {
         object-fit: contain;
         border-radius: 8px;
+        margin: 0px;
+    }
+    .projects__box {
+        -webkit-box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+        -moz-box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+         box-shadow: -1px 0px 2px -4px rgba(219,215,219,1);
+         margin-right: 20px;
     }
 }
 
@@ -78,5 +97,12 @@ p{
     .project__images {
         object-fit: contain;
         border-radius: 8px;
+    }
+
+    .projects__box {
+        -webkit-box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+        -moz-box-shadow: -1px 0px 29px -4px rgba(219,215,219,1);
+         box-shadow: -1px 0px 2px -4px rgba(219,215,219,1);
+         margin-right: 20px;
     }
 }
