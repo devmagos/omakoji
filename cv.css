@@ -1,14 +1,30 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
-body { 
-    padding: 35px;
-    background-color: powderblue;
+#particles-js {
+    background-color: lightskyblue;
+    height: 100%;
 }
+
+.grid-item  {
+    margin-bottom: 10px;
+}
+
+.grid-item .nav a{
+    padding: 10px;
+    color: firebrick;
+    text-decoration: none;
+}
+
+/* body { 
+    padding: 35px;
+    background-color: lightskyblue;
+} */
 
 .flex_container {
     width: 75%;
@@ -20,17 +36,24 @@ body {
     margin-right: auto;
 }
 
+.red-text {
+    color: firebrick;
+}
 h1 {
     text-align: center;
 }
 
-#align_p {
+.align {
     text-align: center;
 }
 
 p {
     margin-bottom: 5px;
     text-align: justify;
+}
+.tag {
+    font-size: 0.9em;
+    font-family: 'Dancing Script', cursive;
 }
 
 ul a{
