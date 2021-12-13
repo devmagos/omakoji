@@ -11,6 +11,7 @@
     display: flex;
     top: 100px;
     left: 50px;
+    height: 60%;
     opacity: 0.9;
     background: #fff;
     position: absolute;
@@ -25,31 +26,28 @@ img {
     border-radius: 15px;
 }
 
-#logo {
+.grid-item1 h3 {
     margin: 5px auto;
-    font: 2em sans-serif;
+    font: 1em sans-serif;
 }
 .grid-item1 {
     display: flex;
     padding: 5px;
-}
-.grid-item1 div {
-    margin-right: 5px;
 }
 
 .grid-item2 {
     display: flex;
 }
 
-.grid-item2 ul{
+.grid-item2 ul {
     display: flex;
-    padding: 5px;
     list-style-type: none;
 }
 
 .grid-item2 ul a{
     display: flex;
-    padding: 25px;
+    padding: 5px;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -63,7 +61,7 @@ img {
 
 .grid-item4 {
     display: flex;
-    font-size: 5px;
+    font-size: 2px;
     margin-bottom: 10px;
 }
 
@@ -75,6 +73,7 @@ img {
 .grid-item5 {
     display: flex;
     padding: 15px;
+    margin-bottom: 10px;
 }
 .grid-item5 .heart {
     margin-left: 3px;
@@ -90,99 +89,111 @@ img {
 @media only screen and (max-width: 320px) {
     /* For mobile phones: */
     [class*="grid-container"] {
-        width: 80%;
+        width: 60%;
         height: 80%;
       }
-.grid-item2 {
-    display: flex;
-}
+.grid-item1 h3 {
+          font-size: 70px;
+          text-align: center;
+      }
 
 .grid-item2 ul{
-    display: flex;
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2px;
+    text-align: center;
     list-style-type: none;
 }
 
-.grid-item2 ul a{
-    display: flex;
-    padding: 25px;
-    text-decoration: none;
-}
-      .grid-item2 ul a{
-          margin: 2px auto;
-          padding: 8px;
-          text-decoration: none;
-      }
       .grid-item4 ul a{
-          margin: 3px auto;
-          padding: 5px;
-          font-size: 25px;
+          text-align: center;
+          justify-content: center;
+          font-size: 2px;
+          padding: 0px;
+          margin: 0px;
+      }
+      .grid-item5 {
+          text-align: center;
+          padding: 0px;
       }
   }
 
   @media only screen and (max-width: 375px) {
     /* For mobile phones: */
     [class*="grid-container"] {
-        width: 80%;
-        height: 80%;
+        width: 98%;
+        height: 70%;
       }
-.grid-item2 {
-    display: flex;
-}
+.grid-item1 h3 {
+          font-size: 70px;
+          text-align: center;
+      }
 
 .grid-item2 ul{
     display: flex;
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    flex-direction: row;
     list-style-type: none;
 }
 
-.grid-item2 ul a{
-    display: flex;
-    padding: 25px;
-    text-decoration: none;
-}
-      .grid-item2 ul a{
-          margin: 2px auto;
-          padding: 8px;
-          text-decoration: none;
-      }
-      .grid-item4 ul a{
-          margin: 5px auto;
-          padding: 15px;
-          font-size: 25px;
+.grid-item4 ul a{
+          font-size: 10px;
       }
   }
 
   @media only screen and (max-width: 425px) {
     /* For mobile phones: */
     [class*="grid-container"] {
-        width: 80%;
+        width: 95%;
+        height: 80%;
+      }
+.grid-item1 h3 {
+          font-size: 70px;
+          text-align: center;
+      }
+
+.grid-item2 ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.grid-item4 ul a{
+          font-size: 10px;
+      }
+      
+  }
+
+    @media only screen and (max-width: 464px) {
+    /* For mobile phones: */
+    [class*="grid-container"] {
+        width: 95%;
         height: 80%;
       }
 .grid-item1 h3 {
           display: flex;
           font-size: 12px;
-          margin-left: 3px;
-          margin-top: 10px;
+          text-align: center;
       }
 .grid-item2 {
     display: flex;
+    object-fit: contain;
 }
 
 .grid-item2 ul{
     display: flex;
+    text-align: center;
+    flex-direction: row;
+    object-fit: contain;
     list-style-type: none;
 }
 
-.grid-item2 ul {
-    display: flex;
-    flex-direction: row;
-}
-
 .grid-item2 ul a{
-    display: flex;
-    margin: 5px auto 0px 0px;
-    padding: 2px;
     font-size: 10px;
     text-decoration: none;
     text-decoration: none;
@@ -191,19 +202,20 @@ img {
       .grid-item4 ul a{
           margin: 5px auto;
           padding: 15px;
+          object-fit: contain;
           font-size: 25px;
       }
-      .grid-container .grid-item1 #logo {
+      .grid-item1 h3 {
         font-size: 2px;
-        color: yellow;
 }
   }
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="grid-container"] {
-      width: 45%;
-      height: 65%;
+      width: 50%;
+      height: 60%;
     }
 .grid-item2 {
     display: flex;
@@ -211,23 +223,20 @@ img {
 
 .grid-item2 ul{
     display: flex;
+    text-align: center;
     padding: 5px;
     list-style-type: none;
 }
 
 .grid-item2 ul a{
-    display: flex;
-    padding: 25px;
-    text-decoration: none;
-}
-    .grid-item2 ul a{
-        margin: 5px auto;
-        padding: 15px;
+        display: flex;
+        padding: 10px;
+        text-align: center;
         text-decoration: none;
     }
     .grid-item4 ul a{
-        margin: 5px auto;
-        padding: 15px;
+        margin: auto;
+        padding: 10px;
         font-size: 25px;
     }
   }
